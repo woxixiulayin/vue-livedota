@@ -1,0 +1,6 @@
+{   
+    //使用ES6
+    "presets": ["es2015"],
+    //使用async await
+    "plugins": ["transform-async-to-generator"]
+}

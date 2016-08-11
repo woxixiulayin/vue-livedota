@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LiveDota</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="top">
+                <h1>LiveDota</h1>
+                <h2>Dota直播信息搜集网</h2>
+            </div>
+            <a class="header-link" href="https://github.com/woxixiulayin/LiveDota">github传送门</a>
+        </header>
+        <div class="content" id="content">
+            <div class="left-wrap">
+            <ul class="websites" id="websites">
+                <li class="website-item" v-for="liveinfo in liveinfos">
+                    {{ liveinfo.website }}
+                </li>
+            </ul>
+                <button class="btn-refresh">刷新</button>
+            </div>
+            <div class="live-list">
+                <ul class="ul-live-list"></ul>
+            </div>
+            <aside class="right-wrap">
+                <h3 class="head-rank">Dota直播排行榜</h3>
+                <ul class="live-rank"></ul>
+            </aside>
+        </div>
+<!-- <footer class= "foot">LiveDota from Gangker@2016</footer> -->
+<!-- <script type="text/javascript" src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script> -->
+<script type="text/javascript" src="//cdn.bootcss.com/vue/1.0.26/vue.min.js"></script>
+<script type="text/javascript" src="js/vuecomponents.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

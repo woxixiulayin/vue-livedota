@@ -1,0 +1,1056 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"idnex",
+				"indexOf"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"chang",
+				"changeTime"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"db",
+				"dbUtil"
+			],
+			[
+				"pro",
+				"promises"
+			],
+			[
+				"get",
+				"getSpiderJds"
+			],
+			[
+				"promi",
+				"promise"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"ci",
+				"city"
+			],
+			[
+				"spi",
+				"spiderjd"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"cit",
+				"city"
+			],
+			[
+				"citi",
+				"cities"
+			],
+			[
+				"jdS",
+				"jdschema"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"getsp",
+				"getSpiderQuery"
+			],
+			[
+				"time",
+				"timeInt"
+			],
+			[
+				"file",
+				"filepath"
+			],
+			[
+				"quer",
+				"query"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"in",
+				"input_job	(style.css)"
+			],
+			[
+				"sea",
+				"search_cities"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"city",
+				"cityBar"
+			],
+			[
+				"span",
+				"sapncity"
+			],
+			[
+				"input",
+				"input_job	(style.css)"
+			],
+			[
+				"inp",
+				"inputjob"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"spa",
+				"sapncity"
+			],
+			[
+				"inpu",
+				"input	(style.css)"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"let",
+				"left"
+			],
+			[
+				"ve",
+				"vertical-align"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"ba",
+				"background-size"
+			],
+			[
+				"boo",
+				"bottom"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"conso",
+				"console.log()"
+			],
+			[
+				"stri",
+				"strict	(spider.js)"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"pos",
+				"position	(model.js)"
+			],
+			[
+				"positionRe",
+				"positionResult"
+			],
+			[
+				"or",
+				"origin_data"
+			],
+			[
+				"std",
+				"stdout"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"tdc",
+				"tdcounts"
+			],
+			[
+				"td",
+				"tdcounts"
+			],
+			[
+				"crea",
+				"createElement(\"DIV"
+			],
+			[
+				"jobinfo",
+				"jobinfotable	(index.html)"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"prom",
+				"promise	(spider.js)"
+			],
+			[
+				"lago",
+				"lagouspider	(test.js)"
+			],
+			[
+				"Ci",
+				"CityJobcount"
+			],
+			[
+				"con",
+				"console	(spider.js)"
+			],
+			[
+				"result",
+				"responseType	XMLHttpRequest"
+			],
+			[
+				"lagou",
+				"lagouspider"
+			],
+			[
+				"response",
+				"responseText	XMLHttpRequest"
+			],
+			[
+				"isa",
+				"isasync"
+			],
+			[
+				"i",
+				"inputjob"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"la",
+				"lagouspider	(test.js)"
+			],
+			[
+				"getele",
+				"getElementById(id)	Element"
+			],
+			[
+				"woe",
+				"worker	(spider.js)"
+			],
+			[
+				"ins",
+				"instanceof(Object)	Object"
+			],
+			[
+				"La",
+				"LagouSpider"
+			],
+			[
+				"url",
+				"urlOrigin"
+			],
+			[
+				"isn",
+				"instanceof	(layer.js)"
+			],
+			[
+				"requ",
+				"request	(spider.js)"
+			],
+			[
+				"wor",
+				"worker"
+			],
+			[
+				"ur",
+				"urls"
+			],
+			[
+				"relu",
+				"results"
+			],
+			[
+				"err",
+				"error	Event"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"sta",
+				"static	(index.html)"
+			],
+			[
+				"respo",
+				"responseText	XMLHttpRequest"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"read",
+				"readyState	Document"
+			],
+			[
+				"J",
+				"Jobdesclistener"
+			],
+			[
+				"msg",
+				"msgConstructor"
+			],
+			[
+				"lis",
+				"listerner"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"tem",
+				"template_rendered	instance"
+			],
+			[
+				"power",
+				"powerrate"
+			],
+			[
+				"shi",
+				"ships"
+			],
+			[
+				"inde",
+				"indexs"
+			],
+			[
+				"shp",
+				"ships"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"enti",
+				"entityType"
+			],
+			[
+				"en",
+				"entity"
+			],
+			[
+				"send",
+				"sendCommond"
+			],
+			[
+				"st",
+				"stop"
+			],
+			[
+				"star",
+				"start"
+			],
+			[
+				"com",
+				"commmond"
+			],
+			[
+				"btn",
+				"btnstart"
+			],
+			[
+				"ship",
+				"shipctldiv"
+			],
+			[
+				"creat",
+				"createShip"
+			],
+			[
+				"coma",
+				"commander	(task26-test.js)"
+			],
+			[
+				"sihp",
+				"shipctldiv"
+			],
+			[
+				"btt",
+				"button	(style.css)"
+			],
+			[
+				"createele",
+				"createElement	(task26-test.js)"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"addT",
+				"addText"
+			],
+			[
+				"comm",
+				"commmond"
+			],
+			[
+				"des",
+				"destory"
+			],
+			[
+				"S",
+				"Star"
+			],
+			[
+				"C",
+				"Commander"
+			],
+			[
+				"ad",
+				"add"
+			],
+			[
+				"show",
+				"showtimer"
+			],
+			[
+				"ste",
+				"steptiming"
+			],
+			[
+				"iss",
+				"isstop"
+			],
+			[
+				"head",
+				"headradius"
+			],
+			[
+				"ent",
+				"entites"
+			],
+			[
+				"exc",
+				"expect"
+			],
+			[
+				"check",
+				"checkProperty"
+			],
+			[
+				"draw",
+				"drawLine"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"conslo",
+				"console.log()"
+			],
+			[
+				"root",
+				"rootdiv"
+			],
+			[
+				"cl",
+				"className"
+			],
+			[
+				"setti",
+				"setTimeout(func, delay)	Window"
+			],
+			[
+				"class",
+				"className	Element"
+			],
+			[
+				"tree",
+				"tree2Dom"
+			],
+			[
+				"lef",
+				"leftnode"
+			],
+			[
+				"left",
+				"leftnode"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: con",
+				"Snippet: Function"
+			],
+			[
+				"package c",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"note",
+				"Evernote: New empty note"
+			],
+			[
+				"err",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 167.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Jackson/work/web/vue-livedota"
+	],
+	"file_history":
+	[
+		"/Users/Jackson/work/web/lagou_spider/server/dataUtil.js",
+		"/Users/Jackson/work/web/lagou_spider/server/jddata.js",
+		"/Users/Jackson/work/web/lagou_spider/static/main.js",
+		"/Users/Jackson/work/web/lagou_spider/server/spider.js",
+		"/Users/Jackson/work/web/lagou_spider/server/model.js",
+		"/Users/Jackson/work/web/lagou_spider/src/html/index.html",
+		"/Users/Jackson/work/web/tiebadig_node/dev/app.js",
+		"/Users/Jackson/work/web/lagou_spider/gulpfile.js",
+		"/Users/Jackson/work/web/lagou_spider/package.json",
+		"/Users/Jackson/work/web/lagou_spider/err.out",
+		"/Users/Jackson/work/web/lagou_spider/server/jsonExample.js",
+		"/Users/Jackson/work/web/lagou_spider/README.md",
+		"/Users/Jackson/work/web/LiveDota/dev/src/css/style.css",
+		"/Users/Jackson/work/web/tiebadig_node/package.json",
+		"/Users/Jackson/work/web/lagou_spider/server/utils.js",
+		"/Users/Jackson/work/web/lagou_spider/node_modules/superagent/node_modules/q/q.js",
+		"/Users/Jackson/work/web/lagou_spider/server/lagouspider.js",
+		"/Users/Jackson/work/web/tiebadig_node/dev/server/spider.js",
+		"/Users/Jackson/work/web/LiveDota/dev/server/spider/spider.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/example/realwebsite/css/style.css",
+		"/Users/Jackson/work/web/lagou_spider/__tests__/test.js",
+		"/Users/Jackson/work/web/lagou_spider/static/style.css",
+		"/Users/Jackson/work/web/lagou_spider/server.js",
+		"/Users/Jackson/work/web/lagou_spider/utils.js",
+		"/Users/Jackson/work/web/lagou_spider/lagouspider.js",
+		"/Users/Jackson/work/web/lagou_spider/spider.js",
+		"/Users/Jackson/work/web/lagou_spider/templates/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/__tests__/task26-test.js",
+		"/Users/Jackson/work/web/lagou_spider/static/rawcircle.js",
+		"/Users/Jackson/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Jackson/work/web/lagou_spider/makefile",
+		"/Users/Jackson/work/web/lagou_spider/lagoupachong.sublime-project",
+		"/Users/Jackson/work/web/lagou_spider/lagouSpider.url.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task23/main.js",
+		"/Users/Jackson/work/web/lagou_spider/urlact.js",
+		"/Users/Jackson/work/web/lagou_spider/node_modules/superagent/Readme.md",
+		"/Users/Jackson/work/web/lagou_spider/urlAct.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/common.js",
+		"/Users/Jackson/work/web/lagou_spider/node_modules/express/lib/express.js",
+		"/Users/Jackson/work/web/lagou_spider/index.py",
+		"/Users/Jackson/work/web/ife_baiduqianduan/index.py",
+		"/Users/Jackson/work/web/tieba_dig/server.py",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task27/style.css",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task27/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task26/main.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task27/main.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task26/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task26/style.css",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/index.html",
+		"/Users/Jackson/weijing/log/05031106.log",
+		"/Users/Jackson/weijing/log/05031617.log",
+		"/Users/Jackson/weijing/log/05031225.log",
+		"/Users/Jackson/weijing/log/05031049.log",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task25/main.js",
+		"/Users/Jackson/weijing/log/05031227.log",
+		"/Users/Jackson/weijing/log/05031442.log",
+		"/Users/Jackson/weijing/log/03211945.log",
+		"/Users/Jackson/weijing/log/03171701.log",
+		"/Users/Jackson/work/web/ife_baiduqianduan/ife.sublime-project",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task17/js/main.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/__tests__/task17-test.js",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/titan/init.rc",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/common/factory/test/factorytest.cpp",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/common/factory/tv/whaley/factory/WtvFactoryManager.java",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/apps/FactoryTest/src/android_serialport_api/MainActivity.java",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/common/factory/FactoryService.cpp",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/apps/FactoryTest/src/android_serialport_api/UsbUpgradeHelper.java",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/common/factory/IFactoryService.cpp",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/common/HeliosDLNA/src/org/fourthline/cling/support/model/DIDLObject.java",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/common/factory/FactoryService.h",
+		"/Users/Jackson/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/common/ClassicTV/src/com/whaley/tv/tvplayer/ui/RootActivity.java",
+		"/Users/Jackson/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/data_liuzg/titan-m-938/device/whaley/apps/ClassicFactory/src/mstar/tvsetting/factory/ui/designmenu/DesignMenuActivity.java",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task22/style.css",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task22/main.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task22/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task21/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task20/js/main.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task21/style.css",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task21/main.js",
+		"/Users/Jackson/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Jackson/work/android/android-sdk-macosx/platform-tools/systrace/systrace_trace_viewer.html",
+		"/Users/Jackson/work/android/android-sdk-macosx/sources/android-15/org/apache/harmony/xml/dom/InnerNodeImpl.java",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task20/index.html",
+		"/Users/Jackson/Library/Application Support/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task20/css/style.css",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task19/js/main.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task20/js/makefile",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/example/carousel/main.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task19/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task19/css/style.css",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/example/carousel/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task18/css/style.css",
+		"/Users/Jackson/work/web/learningjavascript/makefile",
+		"/Users/Jackson/work/web/learningjavascript/test.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task18/js/main.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task18/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/example/carousel/style.css",
+		"/Users/Jackson/weijing/log/04131831.log",
+		"/Users/Jackson/weijing/log/04131907.log",
+		"/Users/Jackson/weijing/log/04141039.log",
+		"/Users/Jackson/work/1",
+		"/Users/Jackson/work/web/参考示例/轮播图/demo.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task3/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task14/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task13/index.html",
+		"/Users/Jackson/Library/Application Support/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/Users/Jackson/work/web/tie_dig_bae/templates/index.html",
+		"/Users/Jackson/work/web/tie_dig_bae/static/build/mine.css",
+		"/Users/Jackson/work/web/tie_dig_bae/static/build/post.js",
+		"/Users/Jackson/work/web/tie_dig_bae/index.py",
+		"/Users/Jackson/work/web/appidbjp87mswa6/static/build/jQuery.js",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task3/css/style.css",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task5/css/style.css",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task4/css/style.css",
+		"/Users/Jackson/Library/Application Support/Sublime Text 3/Packages/User/sinppets/m0.sublime-snippet",
+		"/Users/Jackson/Library/Application Support/Sublime Text 3/Packages/User/untitled",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task17/css/style.css",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task17/index.html",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/package.json",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task5/index.html",
+		"/Users/Jackson/weijing/log/04061133.log",
+		"/Users/Jackson/Library/Application Support/Sublime Text 3/Packages/User/make.sublime-build",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task17/js/makefile",
+		"/Users/Jackson/work/web/ife_baiduqianduan/templates/task16/index.html",
+		"/Users/Jackson/work/python/baidu_index/use_selenium.py",
+		"/Users/Jackson/work/python/baidu_index/0.jpg"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/Jackson/work/web/lagou_spider",
+			"/Volumes/data_liuzg/titan-m-938/device/whaley/apps/FactoryTest/src/android_serialport_api",
+			"/Volumes/data_liuzg/titan-m-938/device/whaley/common/factory",
+			"/Volumes/data_liuzg/titan-m-938/device/whaley/apps/FactoryTest",
+			"/Volumes/data_liuzg/titan-m-938/device/whaley/apps/FactoryTest/src/android_serialport_api",
+			"/Users/Jackson/work/web/boost",
+			"/Users/Jackson/work/web/boost/application",
+			"/Users/Jackson/work/web/boost",
+			"/Users/Jackson/work/web/tieba_dig_bae",
+			"/Users/Jackson/work/web/flask_boost/test",
+			"/Users/Jackson/work/python/appidfnxes2biye/jinja2"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"showResult",
+			"getInputdata",
+			"search_cities",
+			"changetime",
+			"changeTime",
+			"changetime",
+			"changeTime",
+			"save",
+			"getInputdata",
+			"fetchJds",
+			"position",
+			"spiderDd2dbJd",
+			"log",
+			"getData",
+			"console.log",
+			"getSpiderJds",
+			"exitsSync",
+			"filepath",
+			"\"(",
+			"getInputdata",
+			"fetchJds",
+			"cityBar",
+			"inputJob",
+			"inputjob",
+			"inputJob",
+			"inputjob",
+			"inputJob",
+			"inputjob",
+			"inputJob",
+			"inputjob",
+			"$(\"#inputjob\")",
+			"Inputdata",
+			"inputdata",
+			"Inputdata",
+			"inputdata",
+			"inputjob",
+			"diplapyJobinfo",
+			"cities",
+			"forEach",
+			"cities",
+			"position",
+			"front",
+			"position",
+			"getJSON",
+			"getPosts",
+			"sys",
+			"promise",
+			"Promise",
+			"promise",
+			"getCityJobcounts",
+			"getJSON",
+			"function",
+			"path",
+			"    var path = '/ajax?job='+job;\n",
+			"path",
+			"Ajax",
+			"CITIES",
+			"cities",
+			"CITIES",
+			"parseBody",
+			"kd",
+			"Urls",
+			"urls",
+			"createUrls",
+			"this.worker",
+			"getHtml",
+			"workerpromises",
+			"post",
+			"Sync",
+			"sync",
+			"Sync",
+			"sync",
+			"html",
+			"Html",
+			"html",
+			"Cityjobquanti",
+			"chargerate",
+			"destoryShip",
+			"index",
+			"destoryShip",
+			"destory",
+			"commmonder",
+			"entity",
+			"destory",
+			"handleCommond",
+			"createShip",
+			"createship",
+			"create",
+			"        \n",
+			"createShip",
+			"recovery",
+			"sh factory/copyDB.sh",
+			"copyDB.sh",
+			"copyDB",
+			"hdcp",
+			"<< MStar >>#",
+			"1613601",
+			"<< MStar >>#",
+			"mmc dd",
+			"install-recovery.sh",
+			"cannot find",
+			"steptiming",
+			"powerrate",
+			"moveDegree",
+			"drawText",
+			"addText",
+			"rotate",
+			"step",
+			"runStep",
+			"enableRun",
+			"enable",
+			"handleCommond",
+			"sendCommond",
+			"shipp",
+			"handleCommond",
+			"ommand",
+			"mmond",
+			"shipUntrustCount",
+			".id",
+			"id",
+			"addTo",
+			"commander",
+			"Commander",
+			"addTo",
+			"enableRun",
+			"Entity",
+			"Commander",
+			"enableRun"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "vue-livedoata.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rootact",
+				"common/ClassicTV/src/com/whaley/tv/tvplayer/ui/RootActivity.java"
+			],
+			[
+				"baidu",
+				"python/baidu_index/baidu.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/work/python/tieba_dig/tibe_dig.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1160.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
