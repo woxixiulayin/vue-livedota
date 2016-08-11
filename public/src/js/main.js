@@ -1,8 +1,15 @@
-"use strict";
+'use strict';
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 var rankNumber = 15;
+
+var globaldata = {
+    liveinfos: {},
+    ranklives: [],
+    websites: ['熊猫', '战旗', '斗鱼', '虎牙', '全民'],
+    siteindex: 0
+};
 
 var parseLive = function parseLive(live) {
     var nums = live.nums;
@@ -47,26 +54,10 @@ var getliveinfos = function getliveinfos() {
     });
 };
 
-var globaldata = {
-    liveinfos: {},
-    ranklives: [],
-    siteindex: 0
-};
-
-var websites = new Vue({
-    el: "#websites",
+var websitesul = new Vue({
+    el: ".websites",
     data: {
-        liveinfos: [{
-            website: '熊猫'
-        }, {
-            website: '战旗'
-        }, {
-            website: '斗鱼'
-        }, {
-            website: '虎牙'
-        }, {
-            website: '全民'
-        }],
+        websites: globaldata.websites,
         checknum: globaldata.siteindex
     },
     methods: {
@@ -80,11 +71,19 @@ var websites = new Vue({
     }
 });
 
+var livelist = new Vue({
+    el: ".ul-live-list",
+    data: {
+        lives: []
+    }
+});
+
 //获取直播信息
 (function run() {
     getliveinfos().then(function (data) {
         globaldata.liveinfos = data;
         globaldata.ranklives = getRankinfo(data);
-        console.log(data);
+        livelist.lives = globaldata.liveinfos[globaldata.siteindex].lives;
+        console.log(livelist.lives);
     });
 })();

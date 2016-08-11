@@ -1,5 +1,14 @@
 const rankNumber = 15;
 
+
+let globaldata = {
+    liveinfos: {},
+    ranklives: [],
+    websites: ['熊猫', '战旗', '斗鱼', '虎牙', '全民'],
+    siteindex: 0
+}
+
+
 let parseLive = live => {
         let nums = live.nums;
         live.nums = nums > 10000 ? (nums/10000).toFixed(1) + "万" : nums;
@@ -26,7 +35,6 @@ let getRankinfo = (liveinfos) => {
     return orderedlives;
 };
 
-
 let getliveinfos = () => {
     return new Promise((resolve, reject) => {
         fetch("/search", {
@@ -45,26 +53,10 @@ let getliveinfos = () => {
     })
 };
 
-let globaldata = {
-    liveinfos: {},
-    ranklives: [],
-    siteindex: 0
-}
-
-let websites = new Vue({
-    el: "#websites",
+let websitesul = new Vue({
+    el: ".websites",
     data: {
-        liveinfos: [{
-            website: '熊猫'
-        }, {
-            website: '战旗'
-        }, {
-            website: '斗鱼'
-        }, {
-            website: '虎牙'
-        }, {
-            website: '全民'
-        }],
+        websites: globaldata.websites,
         checknum: globaldata.siteindex
     },
     methods: {
@@ -78,11 +70,19 @@ let websites = new Vue({
     }
 });
 
+let livelist = new Vue({
+    el: ".ul-live-list",
+    data: {
+        lives: []
+    }
+});
+
 //获取直播信息
 (function run() {
     getliveinfos().then( (data) => {
         globaldata.liveinfos = data;
         globaldata.ranklives = getRankinfo(data);
-        console.log(data);
+        livelist.lives = globaldata.liveinfos[globaldata.siteindex].lives;
+        console.log(livelist.lives);
     });
 })();
