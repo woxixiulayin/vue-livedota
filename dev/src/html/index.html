@@ -15,8 +15,8 @@
         </header>
         <div class="content" id="content">
             <div class="left-wrap">
-            <ul class="websites" id="websites">
-                <li class="website-item" v-for="liveinfo in liveinfos">
+            <ul class="websites" id="websites" @click="getWebsitelive">
+                <li class="website-item" :class="{'checked': $index == checknum ? true: false}" v-for="liveinfo in liveinfos" :index="$index">
                     {{ liveinfo.website }}
                 </li>
             </ul>
