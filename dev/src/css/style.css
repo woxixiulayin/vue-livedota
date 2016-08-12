@@ -339,3 +339,15 @@ body
     width: 18em;
     height: 12em;
 }
+.tip
+{
+    position: fixed;
+    padding: .2rem 3rem;
+    font-size: 1.5rem;
+    color: white;
+    background: rgb(17,186,132);
+    z-index: 100;
+    top: 0;
+    left: 50%;
+    margin-left: -6rem;
+}

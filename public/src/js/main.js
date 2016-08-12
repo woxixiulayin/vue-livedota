@@ -111,10 +111,48 @@ var liverank = new Vue({
     }
 });
 
+var toast = new Vue({
+    el: ".tip",
+    data: {
+        show: false,
+        content: ""
+    },
+    // computed: {
+    //     content: {
+    //         set: function(value)  {
+    //             let that = this;
+    //             this.show = true;
+    //             setTimeout(()=>{
+    //                 that.show = false;
+    //             }, 3000);
+    //             console.log(value);
+    //             return value;
+    //         }
+    //     }
+    // },
+    methods: {
+        close: function close() {
+            this.show = false;
+            this.content = '';
+        }
+    },
+    watch: {
+        content: function content() {
+            if (this.content === '') return;
+            var that = this;
+            this.show = true;
+            setTimeout(function () {
+                that.close();
+            }, 3000);
+        }
+    }
+});
+
 var refreshdata = function refreshdata() {
     getliveinfos().then(function (data) {
         globaldata.liveinfos = data;
         globaldata.ranklives = getRankinfo(data);
+        toast.content = "刷新完成";
     });
 };
 
