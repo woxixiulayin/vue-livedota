@@ -33,7 +33,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // website:"虎牙"
 
 //直播信息
-
 var Live = function Live(name, nums, title, link, category, img, website) {
     (0, _classCallCheck3.default)(this, Live);
 
