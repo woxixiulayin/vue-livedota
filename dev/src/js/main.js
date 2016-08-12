@@ -110,6 +110,7 @@ let refreshdata = () => {
     });
 };
 
+
 let btn_refresh = document.getElementsByClassName("btn-refresh")[0];
 btn_refresh.onclick = function(e) {
     let that = this;
@@ -125,5 +126,13 @@ btn_refresh.onclick = function(e) {
     return false;
 };
 
+
+ //live ul自适应居中
+ window.onresize = function () {
+     let pageWidth = window.innerWidth;
+    let liveul_margin = ((pageWidth - 500) - Math.floor((pageWidth - 500) / 290) * 290) / 2 - 10 + "px";
+    document.querySelector(".ul-live-list").style.marginLeft = liveul_margin;
+ }
+ window.onresize()
 //刷新页面
 refreshdata();

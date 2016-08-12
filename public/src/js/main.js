@@ -135,5 +135,12 @@ btn_refresh.onclick = function (e) {
     return false;
 };
 
+//live ul自适应居中
+window.onresize = function () {
+    var pageWidth = window.innerWidth;
+    var liveul_margin = (pageWidth - 500 - Math.floor((pageWidth - 500) / 290) * 290) / 2 - 10 + "px";
+    document.querySelector(".ul-live-list").style.marginLeft = liveul_margin;
+};
+window.onresize();
 //刷新页面
 refreshdata();
