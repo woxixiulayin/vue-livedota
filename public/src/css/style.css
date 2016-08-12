@@ -101,6 +101,7 @@ body
 {   
     color: white;
     background: rgb(28,211,136);
+    cursor: pointer;
 }
 .websites
 {
@@ -304,7 +305,7 @@ body
 }
 
 .img-div
-{
+{   
     position: absolute;
     left: -19.5em;
     width: 19.5em;

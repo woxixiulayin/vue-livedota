@@ -17,7 +17,7 @@
             <div class="left-wrap">
                 <ul class="websites" id="websites" @click="getWebsitelive">
                     <li class="website-item" :class="{'checked': $index == checknum ? true: false}" v-for="website in websites" :index="$index">
-                        {{ website }}
+                        <a href="#">{{ website }}</a>
                     </li>
                 </ul>
                 <button class="btn-refresh">刷新</button>
@@ -41,14 +41,29 @@
             </div>
             <aside class="right-wrap">
                 <h3 class="head-rank">Dota直播排行榜</h3>
-            <ul class="live-rank"></ul>
-        </aside>
-    </div>
-    <!-- <footer class= "foot">LiveDota from Gangker@2016</footer> -->
-    <!-- <script type="text/javascript" src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script> -->
-    <script type="text/javascript" src="//cdn.bootcss.com/vue/1.0.26/vue.min.js"></script>
-    <script src="//cdn.bootcss.com/fetch/1.0.0/fetch.min.js"></script>
-    <script type="text/javascript" src="js/vuecomponents.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-</body>
+                <ul class="live-rank" >
+                    <li class="rank-item-wrap" v-for="live in lives" @mouseover="showbrief" @mouseout="closebrief" :index="$index">
+                        <a class="rank-link" href="{{ live.link }}" target="_blank" >
+                            <div class="rank-item">
+                                <span class="rank-name">{{ live.name }}</span>
+                                <span class="rank-nums">{{ live.nums }}</span>
+                                <span class="rank-website">{{ live.website }}</span>
+                            </div>
+                            <div class="img-div" v-show="$index == checknum ? true : false">
+                                <div class="rank-i-img-wrap">
+                                    <img :src="live.img" class="rank-img" >
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <!-- <footer class= "foot">LiveDota from Gangker@2016</footer> -->
+        <!-- <script type="text/javascript" src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script> -->
+        <script type="text/javascript" src="//cdn.bootcss.com/vue/1.0.26/vue.min.js"></script>
+        <script src="//cdn.bootcss.com/fetch/1.0.0/fetch.min.js"></script>
+        <script type="text/javascript" src="js/vuecomponents.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
 </html>

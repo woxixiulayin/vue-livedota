@@ -1,14 +1,7 @@
 const rankNumber = 15;
 
 
-let globaldata = {
-    liveinfos: {},
-    ranklives: [],
-    websites: ['熊猫', '战旗', '斗鱼', '虎牙', '全民'],
-    siteindex: 0
-}
-
-
+//通用函数
 let parseLive = live => {
         let nums = live.nums;
         live.nums = nums > 10000 ? (nums/10000).toFixed(1) + "万" : nums;
@@ -53,18 +46,33 @@ let getliveinfos = () => {
     })
 };
 
+//全局变量设置
+let globaldata = new Vue({
+    data: {
+            liveinfos: {},
+            ranklives: [],
+            websites: ['熊猫', '战旗', '斗鱼', '虎牙', '全民'],
+            siteindex: 0
+        }
+});
+
+//组件申明
 let websitesul = new Vue({
     el: ".websites",
-    data: {
-        websites: globaldata.websites,
-        checknum: globaldata.siteindex
+    computed: {
+        websites: () => (globaldata.websites),
+        checknum: {
+            get: () => (globaldata.siteindex),
+            set: (index) => {
+                globaldata.siteindex = index;
+            }
+        }
     },
     methods: {
         getWebsitelive: function(e) {
-            if (e.target.tagName === 'LI') {
-                let ele = e.target;
+            if (e.target.tagName === 'A') {
+                let ele = e.target.parentNode;
                 this.checknum = ele.getAttribute('index');
-                console.log(typeof this.checknum);
             }
         }
     }
@@ -72,17 +80,50 @@ let websitesul = new Vue({
 
 let livelist = new Vue({
     el: ".ul-live-list",
-    data: {
-        lives: []
+    computed: {
+        lives: () => (globaldata.liveinfos[globaldata.siteindex].lives)
     }
 });
 
-//获取直播信息
-(function run() {
+let liverank = new Vue({
+    el: ".live-rank",
+    data: {
+        checknum: -1
+    },
+    computed: {
+        lives: () => (globaldata.ranklives)
+    },
+    methods: {
+        showbrief: function(e) {    
+                this.checknum = e.currentTarget.getAttribute('index');
+        },
+        closebrief: function(e) {
+                this.checknum = -1;
+        }
+    }
+});
+
+let refreshdata = () => {
     getliveinfos().then( (data) => {
         globaldata.liveinfos = data;
         globaldata.ranklives = getRankinfo(data);
-        livelist.lives = globaldata.liveinfos[globaldata.siteindex].lives;
-        console.log(livelist.lives);
     });
-})();
+};
+
+let btn_refresh = document.getElementsByClassName("btn-refresh")[0];
+btn_refresh.onclick = function(e) {
+    let that = this;
+    this.blur();
+    if(this.disabled && this.disabled == true) return false;
+    //更新数据
+    refreshdata();
+    this.disabled = true;
+    //5秒内禁止刷新
+    setTimeout(()=>{
+        this.disabled = false;
+    }, 5000);
+    return false;
+};
+
+//刷新页面
+refreshdata();

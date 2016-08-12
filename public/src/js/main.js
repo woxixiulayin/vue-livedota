@@ -1,16 +1,8 @@
-'use strict';
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+"use strict";
 
 var rankNumber = 15;
 
-var globaldata = {
-    liveinfos: {},
-    ranklives: [],
-    websites: ['熊猫', '战旗', '斗鱼', '虎牙', '全民'],
-    siteindex: 0
-};
-
+//通用函数
 var parseLive = function parseLive(live) {
     var nums = live.nums;
     live.nums = nums > 10000 ? (nums / 10000).toFixed(1) + "万" : nums;
@@ -54,18 +46,37 @@ var getliveinfos = function getliveinfos() {
     });
 };
 
+//全局变量设置
+var globaldata = new Vue({
+    data: {
+        liveinfos: {},
+        ranklives: [],
+        websites: ['熊猫', '战旗', '斗鱼', '虎牙', '全民'],
+        siteindex: 0
+    }
+});
+
+//组件申明
 var websitesul = new Vue({
     el: ".websites",
-    data: {
-        websites: globaldata.websites,
-        checknum: globaldata.siteindex
+    computed: {
+        websites: function websites() {
+            return globaldata.websites;
+        },
+        checknum: {
+            get: function get() {
+                return globaldata.siteindex;
+            },
+            set: function set(index) {
+                globaldata.siteindex = index;
+            }
+        }
     },
     methods: {
         getWebsitelive: function getWebsitelive(e) {
-            if (e.target.tagName === 'LI') {
-                var ele = e.target;
+            if (e.target.tagName === 'A') {
+                var ele = e.target.parentNode;
                 this.checknum = ele.getAttribute('index');
-                console.log(_typeof(this.checknum));
             }
         }
     }
@@ -73,17 +84,56 @@ var websitesul = new Vue({
 
 var livelist = new Vue({
     el: ".ul-live-list",
-    data: {
-        lives: []
+    computed: {
+        lives: function lives() {
+            return globaldata.liveinfos[globaldata.siteindex].lives;
+        }
     }
 });
 
-//获取直播信息
-(function run() {
+var liverank = new Vue({
+    el: ".live-rank",
+    data: {
+        checknum: -1
+    },
+    computed: {
+        lives: function lives() {
+            return globaldata.ranklives;
+        }
+    },
+    methods: {
+        showbrief: function showbrief(e) {
+            this.checknum = e.currentTarget.getAttribute('index');
+        },
+        closebrief: function closebrief(e) {
+            this.checknum = -1;
+        }
+    }
+});
+
+var refreshdata = function refreshdata() {
     getliveinfos().then(function (data) {
         globaldata.liveinfos = data;
         globaldata.ranklives = getRankinfo(data);
-        livelist.lives = globaldata.liveinfos[globaldata.siteindex].lives;
-        console.log(livelist.lives);
     });
-})();
+};
+
+var btn_refresh = document.getElementsByClassName("btn-refresh")[0];
+btn_refresh.onclick = function (e) {
+    var _this = this;
+
+    var that = this;
+    this.blur();
+    if (this.disabled && this.disabled == true) return false;
+    //更新数据
+    refreshdata();
+    this.disabled = true;
+    //5秒内禁止刷新
+    setTimeout(function () {
+        _this.disabled = false;
+    }, 5000);
+    return false;
+};
+
+//刷新页面
+refreshdata();
