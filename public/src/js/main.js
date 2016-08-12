@@ -149,10 +149,9 @@ var toast = new Vue({
 });
 
 var refreshdata = function refreshdata() {
-    getliveinfos().then(function (data) {
+    return getliveinfos().then(function (data) {
         globaldata.liveinfos = data;
         globaldata.ranklives = getRankinfo(data);
-        toast.content = "刷新完成";
     });
 };
 
@@ -164,7 +163,9 @@ btn_refresh.onclick = function (e) {
     this.blur();
     if (this.disabled && this.disabled == true) return false;
     //更新数据
-    refreshdata();
+    refreshdata().then(function () {
+        toast.content = "刷新完成";
+    });
     this.disabled = true;
     //5秒内禁止刷新
     setTimeout(function () {
