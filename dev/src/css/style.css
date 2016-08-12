@@ -73,6 +73,10 @@ body
     height: 1000px;
 }
 
+[v-cloak] {
+  display: none;
+}
+
 .left-wrap
 {   
     position: fixed;
